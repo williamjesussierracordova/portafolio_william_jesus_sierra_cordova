@@ -1,0 +1,40 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    /* el contenedor debe ser redondeado y con un efecto difuminado en los bordes */
+    /* border-radius: 2rem;
+    box-shadow: 0 0 1rem 0.5rem #00000033; */
+}
+
+.tittle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+    /* el color del texto debe ser negro */
+    color: black;
+}
+
+.paragraph {
+    font-size: .875rem;
+    /* letras delgadas */
+    font-weight: lighter;
+    line-height: 1.25rem;
+    /* texto pegado a la izquierda y que sea justificado */
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    color: #6B7280;
+    /* hacer las letras mas delgadas */
+}
+
+.link {
+    color: inherit; /* Mantiene el color del párrafo */
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold; /* Puedes cambiar la apariencia del texto si lo deseas */
+}
