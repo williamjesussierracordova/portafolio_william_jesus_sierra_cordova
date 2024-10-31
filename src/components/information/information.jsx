@@ -31,13 +31,13 @@ const information = () => {
                             <FaLinkedin style={{color:'black'}}/>
                         </a>
                         {/* descargar curriculum */}
-                        <a className='icono' href='../../public/CV_WILLIAM_JESUS_SIERRA_CORDOVA.pdf' target="_blank" rel="noopener noreferrer">
+                        <a className='icono' href='/assets/CV_WILLIAM_JESUS_SIERRA_CORDOVA.pdf' target="_blank" rel="noopener noreferrer">
                             <TbFileCv style={{ color: 'black' }} />
                         </a>
                     </div>
                 </div>
                 <span className='information__right'>
-                    <img className='foto' src="../../public/imagen.png"  alt='William Jesus Sierra Cordova' />
+                    <img className='foto' src="/assets/imagen.png"  alt='William Jesus Sierra Cordova' />
                 </span>
             </div>
         </>
