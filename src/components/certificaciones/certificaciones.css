@@ -1,0 +1,41 @@
+.certificaciones {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.certificacion{
+    display: flex;
+    justify-content: left;
+    color: black;
+}
+
+.certificacion_section {
+    margin-block: 1rem;
+}
+
+.certificacion__header {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin:0;
+}
+
+.certificacion__header p{
+    margin:0rem 0rem;
+}
+
+.certificacion__provider {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-wrap: pretty;
+    color: #6B7280;
+    text-align: justify;
+}
+
+.certificacion__provider p{
+    margin: 0;
+}

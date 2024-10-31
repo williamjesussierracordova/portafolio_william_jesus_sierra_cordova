@@ -3,6 +3,8 @@ import About from './components/about/about'
 import Information from './components/information/information'
 import Education from './components/education/education'
 import Skills from './components/skills/skills'
+import Projects from './components/projects/projects'
+import Certificaciones from './components/certificaciones/certificaciones'
 function App() {
   
 
@@ -19,7 +21,13 @@ function App() {
           <Education />
         </div>
         <div className='card'>
+          <Certificaciones />
+        </div>
+        <div className='card'>
           <Skills />
+        </div>
+        <div className='card'>
+          <Projects />
         </div>
       </div>
     </>

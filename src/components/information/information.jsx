@@ -24,15 +24,15 @@ const information = () => {
                         <a className='icono' href='mailto:williamjsc@hotmail.com'>
                             <IoMdMail style={{color:'black'}}/>
                         </a>
-                        <a className='icono' href='https://github.com/williamjesussierracordova'>
+                        <a className='icono' href='https://github.com/williamjesussierracordova' target='_blank'>
                             <FaGithub style={{color:'black'}}/>
                         </a>
-                        <a className='icono' href='www.linkedin.com/in/william-jesus-sierra-cordova-65580128a'>
+                        <a className='icono' href='https://www.linkedin.com/in/william-jesus-sierra-cordova-65580128a/' target='_blank'>
                             <FaLinkedin style={{color:'black'}}/>
                         </a>
                         {/* descargar curriculum */}
-                        <a className='icono' href='../../public/CV_WILLIAM_JESUS_SIERRA_CORDOVA.pdf' download='CV William Jesus Sierra Cordova'>
-                            <TbFileCv style={{color:'black'}}/>
+                        <a className='icono' href='../../public/CV_WILLIAM_JESUS_SIERRA_CORDOVA.pdf' target="_blank" rel="noopener noreferrer">
+                            <TbFileCv style={{ color: 'black' }} />
                         </a>
                     </div>
                 </div>

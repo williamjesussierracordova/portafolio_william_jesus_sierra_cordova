@@ -18,6 +18,9 @@
     /* Alinea los elementos a la izquierda en una columna */
 }
 
+.skills__list{
+    justify-content: left;
+}
 
 .skills__header {
     color: black;

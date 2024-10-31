@@ -14,9 +14,30 @@
   margin-inline: 12rem;
 }
 
+/* Pantallas grandes (desktops) */
+@media (min-width: 1024px) { 
+  .aplicacion {
+    margin-inline: 12rem; /* Desktops y pantallas grandes */
+  }
+}
+
+/* Pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) { 
+  .aplicacion {
+    margin-inline: 6rem; /* Disminuir margen para tablets */
+  }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 767px) { 
+  .aplicacion {
+    margin-inline: 0rem; /* Disminuir aún más margen para móviles */
+  }
+}
+
 .card {
   display: flex;
   flex-direction: column;
-  margin-block: 1rem;
+  margin-block: 0rem;
   width: 100%;
 }
