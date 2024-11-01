@@ -33,6 +33,10 @@
   .aplicacion {
     margin-inline: 0rem; /* Disminuir aún más margen para móviles */
   }
+  
+  #root {
+    padding: 0rem;
+  }
 }
 
 .card {

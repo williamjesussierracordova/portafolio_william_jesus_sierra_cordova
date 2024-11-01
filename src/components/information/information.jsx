@@ -37,7 +37,7 @@ const information = () => {
                     </div>
                 </div>
                 <span className='information__right'>
-                    <img className='foto' src="/assets/imagen.png"  alt='William Jesus Sierra Cordova' />
+                    <img className='foto' src="/assets/portfolio_2024.JPG"  alt='William Jesus Sierra Cordova' style={{width:'170px'}}/>
                 </span>
             </div>
         </>

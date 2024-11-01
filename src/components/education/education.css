@@ -14,8 +14,10 @@
 
 .education__header {
     display: flex;
+    justify-content: left;
     justify-content: space-between;
     color: #6B7280;
+    
 }
 
 .education__header p{

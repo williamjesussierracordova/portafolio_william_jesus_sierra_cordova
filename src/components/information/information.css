@@ -10,6 +10,7 @@
     justify-content: space-between;
     background-color: white;
     padding: 2rem;
+    flex-direction: row;
     /* el contenedor debe ser redondeado y con un efecto difuminado en los bordes */
     /* border-radius: 2rem;
     box-shadow: 0 0 1rem 0.5rem #00000033; */
@@ -93,4 +94,65 @@
     border-radius: 2rem;
   }
   
-  
+
+/* Para tablets (pantallas menores a 1024px) */
+@media screen and (max-width: 1024px) {
+    .information {
+        padding: 1.5rem;
+    }
+
+    .slogan {
+        margin-right: 4rem;
+        font-size: 0.8rem;
+    }
+
+    .foto {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Para tablets pequeñas (pantallas menores a 768px) */
+@media screen and (max-width: 768px) {
+    .information {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .information__left,
+    .information__right {
+        width: 100%;
+    }
+
+    .information__right {
+        margin-top: 2rem;
+    }
+
+    .slogan {
+        margin-right: 0;
+        text-align: left;
+    }
+
+    .iconos {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
+
+/* Para móviles (pantallas menores a 480px) */
+@media screen and (max-width: 480px) {
+    .information {
+        padding: 2rem 2rem;
+    }
+
+
+    .slogan {
+        font-size: 0.75rem;
+        line-height: 1.2rem;
+        color: #6B7280;
+    }
+
+    .foto {
+        border-radius: 1rem;
+    }
+}
