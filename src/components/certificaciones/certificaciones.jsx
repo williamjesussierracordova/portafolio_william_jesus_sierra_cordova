@@ -7,7 +7,7 @@ const Certificaciones = () => {
                 <h1 className='tittle'>Certificaciones</h1>
                 <div className='certificacion_section'>
                     <span className='certificacion__header'>
-                        <p>Databases for Developers: Foundations</p>
+                        <p >Databases for Developers : Foundations</p>
                         <a href='/assets/classcertofexcellence (1).pdf' target="_blank" rel="noopener noreferrer" >Ver certificado</a>
                     </span>
                     <span className='certificacion__provider'>
@@ -16,7 +16,7 @@ const Certificaciones = () => {
                 </div>
                 <div className='certificacion_section'>
                     <span className='certificacion__header'>
-                        <p>Databases for Developers: Next Level</p>
+                        <p>Databases for Developers : Next Level</p>
                         <a href='/assets/classcertofexcellence.pdf' target="_blank" rel="noopener noreferrer">Ver certificado</a>
                     </span>
                     <span className='certificacion__provider'>

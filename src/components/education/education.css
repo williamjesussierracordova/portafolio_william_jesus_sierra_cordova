@@ -35,3 +35,13 @@
 .education__course p{
     margin: 0;
 }
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 767px) { 
+    .education__header{
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        margin-bottom: 0.5rem;
+    }
+  }

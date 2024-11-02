@@ -39,3 +39,14 @@
 .certificacion__provider p{
     margin: 0;
 }
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 767px) { 
+    .certificacion__header{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: self-start;
+        text-align: left;
+    }
+  }

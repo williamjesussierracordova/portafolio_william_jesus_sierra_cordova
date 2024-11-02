@@ -8,31 +8,36 @@ const Projects = () => {
     const projects = [ 
         {
             title:'Breast cancer detection',
-            description:'A Flask API for breast cancer - IDC (Invasive ductal carcinoma) detection using deep learning.',
+            description:'Una API de Flask para la detección de cáncer de mama - IDC (carcinoma ductal invasivo) utilizando deep learning.',
+            description_en:'A Flask API for breast cancer - IDC (Invasive ductal carcinoma) detection using deep learning.',
             technologies: ['Python', 'Flask', 'Tensorflow', 'Keras', 'Scikit-learn','Numpy', 'Matplotlib', 'Seaborn','PIL'],
             href: 'https://github.com/williamjesussierracordova/prediction_breast_cancer'
         },
         {
             title:'API compare images',
-            description:'API to compare two images and return an image with the differences where the white color represents the difference and the black color represents the similar areas.',
+            description:'API para comparar dos imágenes y devolver una imagen con las diferencias donde el color blanco representa la diferencia y el color negro representa las áreas similares.',
+            description_en:'API to compare two images and return an image with the differences where the white color represents the difference and the black color represents the similar areas.',
             technologies: ['Python', 'Flask', 'cv2', 'Numpy', 'PIL'],
             href: 'https://github.com/williamjesussierracordova/api_compare_images'
         },
         {
             title:'Classification of virusses',
-            description:'A Flask API for virus classification using deep learning. The viruses included in this work are influenza, dengue, hepatitis, MERS, and SARS.',
+            description:'Una API de Flask para la clasificación de virus utilizando deep learning. Los virus incluidos en este trabajo son la influenza, el dengue, la hepatitis, el MERS y el SARS.',
+            description_en:'A Flask API for virus classification using deep learning. The viruses included in this work are influenza, dengue, hepatitis, MERS, and SARS.',
             technologies: ['Python', 'Flask', 'Tensorflow', 'Keras', 'Scikit-learn','Numpy','Pandas','Biopython'],
             href: 'https://github.com/williamjesussierracordova/classification_viruses'
         },
         {
             title:'Ticketing System',
-            description:'A ticketing system for a company that provides services to its clients. The system allows the company to manage the tickets and the clients to create tickets.',
+            description:'Un sistema de tickets para una empresa que brinda servicios a sus clientes. El sistema permite a la empresa gestionar los tickets y a los clientes crear tickets.',
+            description_en:'A ticketing system for a company that provides services to its clients. The system allows the company to manage the tickets and the clients to create tickets.',
             technologies: ['HTML','CSS','Javascript','React','Firebase','Izipay','Mantine-UI'],
             href: 'https://github.com/williamjesussierracordova/sistema_ticketing'
         },
         {
             title:'Planet Miller Timer',
-            description:'This is a personal project that showcases the passage of time on both Earth and Miller`s planet from the movie Interstellar since its release date. By using the concept of time dilation, the web page dynamically displays the time that has elapsed in both locations. Explore this fascinating scientific concept through a real-time and engaging interface.',
+            description:'Este es un proyecto personal que muestra el paso del tiempo tanto en la Tierra como en el planeta de Miller de la película Interstellar desde su fecha de estreno. Al utilizar el concepto de dilatación del tiempo, la página web muestra dinámicamente el tiempo transcurrido en ambos lugares.',
+            description_en:'This is a personal project that showcases the passage of time on both Earth and Miller`s planet from the movie Interstellar since its release date. By using the concept of time dilation, the web page dynamically displays the time that has elapsed in both locations. Explore this fascinating scientific concept through a real-time and engaging interface.',
             technologies: ['HTML','CSS','Javascript','React'],
             href: 'https://github.com/williamjesussierracordova/planet-miller-timer'
         },
@@ -95,7 +100,7 @@ const Projects = () => {
                             </Badge>
                             ))}
                         </div>
-                        <Button variant='filled'  radius="xl" onClick={() => window.open(project.href)}  color="black" >
+                        <Button variant='filled'  radius="xl" className='button' onClick={() => window.open(project.href)}  color="black" >
                             <FaGithub/> Github
                         </Button>
                         </div>
