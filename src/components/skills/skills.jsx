@@ -24,15 +24,17 @@ import { SiPandas } from "react-icons/si";
 import { SiNumpy } from "react-icons/si";
 import { SiGooglecolab } from "react-icons/si";
 import { SiJupyter } from "react-icons/si";
+import { useTranslation } from 'react-i18next';
 
 
 const skills = () => {
+    const { t } = useTranslation();
     return (
         <>
             <div className='skills'>
-                <h1 className='tittle'>Skills</h1>
+                <h1 className='tittle'>{t('skills:tittle')}</h1>
                 <div className='skills_section'>
-                    <p className='skills__header'>Lenguajes de programación</p>
+                    <p className='skills__header'>{t('skills:lenguajes')}</p>
                     <div className='skills__list'>
                         <p className='tag'>
                             <FaPython />&nbsp;Python
@@ -49,7 +51,7 @@ const skills = () => {
                     </div>
                 </div>
                 <div className='skills_section'>
-                    <p className='skills__header'>Desarrollo web</p>
+                    <p className='skills__header'>{t('skills:desarrollo')}</p>
                     <div className='skills__list'>
                         <p className='tag'>
                             <FaReact />&nbsp;React
@@ -69,7 +71,7 @@ const skills = () => {
                     </div>
                 </div>
                 <div className='skills_section'>
-                    <p className='skills__header'>Gestores de bases de datos</p>
+                    <p className='skills__header'>{t('skills:gestores')}</p>
                     <div className='skills__list'>
                         <p className='tag'>
                             <GrOracle />&nbsp;Oracle PL/SQL
@@ -89,7 +91,7 @@ const skills = () => {
                     </div>
                 </div>
                 <div className='skills_section'>
-                    <p className='skills__header'>Software para el control de versiones</p>
+                    <p className='skills__header'>{t('skills:software')}</p>
                     <div className='skills__list'>
                         <p className='tag'>
                             <FaGithub />&nbsp;GitHub
@@ -103,7 +105,7 @@ const skills = () => {
                     </div>
                 </div>
                 <div className='skills_section'>
-                    <p className='skills__header'>Software planning</p>
+                    <p className='skills__header'>{t('skills:planning')}</p>
                     <div className='skills__list'>
                         <p className='tag'>
                             <FaTrello />&nbsp;Trello
@@ -114,7 +116,7 @@ const skills = () => {
                     </div>
                 </div>
                 <div className='skills_section'>
-                    <p className='skills__header'>Otros softwares</p>
+                    <p className='skills__header'>{t('skills:otros')}</p>
                     <div className='skills__list'>
                         <p className='tag'>
                             <PiMicrosoftExcelLogoFill />&nbsp;Excel

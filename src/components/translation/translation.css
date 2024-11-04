@@ -1,0 +1,41 @@
+.translation-button {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #3b82f6; /* Azul, puedes cambiarlo por el color que prefieras */
+    border: none;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .translation-button:hover {
+    background-color: #2563eb; /* Un azul más oscuro para el hover */
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .translation-button:active {
+    transform: scale(0.95);
+  }
+  
+  .globe-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Asegurarse de que el botón sea visible en dispositivos móviles */
+  @media (max-width: 768px) {
+    .translation-button {
+      bottom: 16px;
+      right: 16px;
+    }
+  }

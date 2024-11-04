@@ -5,6 +5,8 @@ import Education from './components/education/education'
 import Skills from './components/skills/skills'
 import Projects from './components/projects/projects'
 import Certificaciones from './components/certificaciones/certificaciones'
+import Footer from './components/footer/footer'
+import TranslationButton from './components/translation/translation'
 function App() {
   
 
@@ -29,7 +31,9 @@ function App() {
         <div className='card'>
           <Projects />
         </div>
+        <Footer />
       </div>
+      <TranslationButton />
     </>
   )
 }

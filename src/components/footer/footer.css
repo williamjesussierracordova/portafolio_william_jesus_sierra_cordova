@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #6e5494 1px solid;
+}
+
+.footer-text{
+    color: #6B7280;
+}
+
+.github_footer {
+    color: #6e5494;
+    /* darle un tamaño al icono */
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.github_footer:hover {
+    color: black;
+}
+
+.mail_footer {
+    color: #6e5494;
+    font-size: 1.5rem;
+}
+
+.mail_footer:hover {
+    color: #127bd2;
+}
+
+.linkedin_footer {
+    color: #6e5494;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.linkedin_footer:hover {
+    color: #0a66c2;
+}
+
+
+/* Para móviles (pantallas menores a 480px) */
+@media screen and (max-width: 480px) {
+    .footer{
+        flex-direction: column;
+    }
+}

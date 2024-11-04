@@ -1,10 +1,16 @@
 import './projects.css';
 import { Grid, Card, Text, Badge, Container, Title, Button } from '@mantine/core';
 import { FaGithub } from 'react-icons/fa';
+import i18n from '../translation/i18';
+import { useTranslation } from 'react-i18next';
 
 
 const Projects = () => {
     
+    // obtener el idioma actual
+    const language = i18n.language;
+    const { t } = useTranslation();
+
     const projects = [ 
         {
             title:'Breast cancer detection',
@@ -77,7 +83,7 @@ const Projects = () => {
         //     </Container>
         // </div>
         <div className="projects">
-            <h1 className="tittle">Projects</h1>
+            <h1 className="tittle">{t('proyectos:tittle')}</h1>
             <div className="projects-grid">
                 {projects.map((project) => (
                 <div href={project.href} key={project.title} className="project-card">
@@ -88,7 +94,10 @@ const Projects = () => {
                             <h2 className="project-title">{project.title}</h2>
                             <span className="project-status-indicator" />
                         </div>
-                        <p className="project-description">{project.description}</p>
+                        <p className="project-description">
+                            {
+                                language === 'es' ? project.description : project.description_en
+                            }</p>
                         <div className="project-technologies">
                             {project.technologies.map((tech) => (
                             <Badge

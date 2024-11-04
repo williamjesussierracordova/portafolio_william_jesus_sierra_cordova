@@ -4,9 +4,11 @@ import { TbFileCv } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-
+import { useTranslation } from 'react-i18next';
 
 const information = () => {
+    const { t } = useTranslation();
+    
     return (
         <>
             <div className='information'>
@@ -14,7 +16,7 @@ const information = () => {
                 <div className='information__left'>
                     <h1 className='tittle'>William Jesus Sierra Cordova</h1>
                     <p className='slogan'>
-                    Apasionado por las nuevas tecnologías y el desarrollo de soluciones innovadoras, combinando el análisis de datos y la programación para crear proyectos con impacto real.
+                        {t('information:slogan')}
                     </p>
                     <p className='ubication'>
                        <TbWorld color='black'/> 
