@@ -7,6 +7,7 @@ import Projects from './components/projects/projects'
 import Certificaciones from './components/certificaciones/certificaciones'
 import Footer from './components/footer/footer'
 import TranslationButton from './components/translation/translation'
+import Publications from './components/publications/publications'
 function App() {
   
 
@@ -24,6 +25,9 @@ function App() {
         </div>
         <div className='card'>
           <Certificaciones />
+        </div>
+        <div className='card'>
+          <Publications />
         </div>
         <div className='card'>
           <Skills />
